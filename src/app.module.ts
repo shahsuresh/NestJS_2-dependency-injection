@@ -9,7 +9,7 @@ import { TeacherModule } from './teacher/teacher.module';
 
 @Module({
   imports: [CatagoryModule, StudentModule, TeacherModule], // CatagoryModule automatically imported by nestjs if new module is created
-  controllers: [AppController, TeacherController],
+  controllers: [AppController],
   providers: [AppService],
 })
 export class AppModule {}
